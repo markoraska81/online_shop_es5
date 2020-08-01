@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Roboto:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Online shop</title>
+</head>
+<body>
+    <!-- header -->
+
+    <header id="header">
+
+        <!-- navbar -->
+
+        <nav class="navbar navbar-expand-lg px-4">
+            <a href="#" class="navbar-brand">
+                <img src="logo/nav-logo.png" alt="logo">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+                <span class="toggler-icon">
+                    <i class="fa fa-bars"></i>
+                </span> 
+             </button>
+             <div class="collapse navbar-collapse" id="myNavbar">
+                 <ul class="navbar-nav text-capitalize mx-auto">
+                    <li class="nav-item mr-4 active"><a href="#header" class="nav-link"><i class="fa fa-home"></i></a><li>
+                    <li class="nav-item mr-4"><a href="#about" class="nav-link">about</a><li>
+                    <li class="nav-item mr-4"><a href="#store" class="nav-link">store</a><li>
+                    <li class="nav-item mr-4"><a href="#services" class="nav-link">services</a><li>
+                    <li class="nav-item"><a href="#cakes" class="nav-link">order</a><li></li>
+                 </ul>
+                <div id="cart-info" class="nav-info align-items-center d-flex justify-content-beetwen mx-lg-5">
+                    <span class="cart-info__icon mr-lg-3">
+                        <i class="fa fa-shopping-cart"></i>
+                    </span>
+                    <p class="mb-0 text-capitalize">
+                        <span id="item-count">0</span>
+                    </p>  
+                </div>
+             </div>
+        </nav>
+
+        <!-- banner -->
+
+        <div class="container-fluid">
+            <div class="row max-height justify-content-center align-items-center">
+                <div class="col-10 mx-auto banner text-center">
+                    <h1 class="title">
+                        Welcome to
+                        <strong class="banner text-uppercase strong-txt">online shop</strong>
+                    </h1>
+                    <a href="#store" class="btn btn-white text-uppercase my-2">explore</a>
+                </div>
+            </div>
+                    
+            
+            <!-- cart -->
+
+            <div id="cart" class="cart">
+
+                <!-- cart total -->
+                <div class="cart-total-container d-flex justify-content-around text-capitalize mt-5">
+                  <h5>total</h5>
+                  <h5> € <strong id="cart-total" class="font-weight-bold">0.00</strong> </h5>
+                </div>
+                <!--end cart total -->
+                <!-- cart buttons -->
+                <div class="cart-buttons-container mt-3 px-3 d-flex justify-content-between">
+                  <a href="#" id="clear-cart" class="btn btn-sm-red btn-outline-secondary text-uppercase">clear cart</a>
+                  <a href="#" class="btn btn-sm-green text-uppercase">checkout</a>
+                </div>
+                <!--end of  cart buttons -->
+        </div>
+
+        
+    </header>
+
+    <!-- about -->
+
+    <section class="about py-5" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 mx-auto col-md-6 my-5">
+                    <h1 class="text-capitalize">about <strong class="strong-txt">us</strong></h1>
+                    <p class="my-4 text-muted w75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit iure labore obcaecati provident voluptatem aspernatur, aut autem. Dolore numquam recusandae a sunt nulla saepe labore repellendus quisquam vitae porro beatae aliquam nihil iusto provident, eveniet laborum consequuntur maxime. Possimus, molestiae?</p>
+                    <a href="#" class="btn btn-black text-uppercase">explore</a>
+                </div>
+                <div class="col-10 mx-auto col-md-6 my-5 aline-self-center">
+                    <div class="about-img__container">
+                        <img src="banner/office2.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- store -->
+
+    <section id="store" class="store py-5">
+        <div class="container">
+            <!-- section title -->
+            <div class="row">
+                <div class="col-10 mx-auto colsm-6 text-center">
+                    <h1 class="text-capitalize">
+                        our 
+                        <strong class="banner-title strong-txt">store</strong>
+                    </h1>
+                </div>
+            </div>
+            <!-- section filter buttons  -->
+            <div class="row">
+                <div class="col-lg-10 mx-auto d-flex justify-content-around sortBtn flex-wrap">
+                    <a href="" class="btn btn-sm-black text-uppercase filter-btn m-2" data-filter="all">all</a>
+                    <a href="" class="btn btn-sm-black text-uppercase filter-btn m-2" data-filter="nike">nike</a>
+                    <a href="" class="btn btn-sm-black text-uppercase filter-btn m-2" data-filter="adidas">adidas</a>
+                    <a href="" class="btn btn-sm-black text-uppercase filter-btn m-2" data-filter="puma">puma</a>
+                    <a href="" class="btn btn-sm-black text-uppercase filter-btn m-2" data-filter="timberland">timberland</a>
+                    <a href="" class="btn btn-sm-black text-uppercase filter-btn m-2" data-filter="converce">converce</a>
+                </div>
+            </div>
+
+            <!-- search-box -->
+            <div class="row">
+                <div class="col-10 col-md-6 mx-auto">
+                    <form class="mt-3">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text search-box" id="search-icon">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" id="search-item" placeholder="Search article...">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- store-items -->
+            <div class="row store-items" id="store-items">
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion1.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">timberland t-shirt</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion2.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">timberland skirt</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion3.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">timberland shoes</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">90<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion4.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">timberland shoes</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">75<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion5.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">timberland coat</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">165<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion6.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">timberland bag</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">75<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion7.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">timberland shirt</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion8.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">timberland jacket</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">120<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion9.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">timberland set</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">139<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion10.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">timberland dress</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion11.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">puma sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">60<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion12.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">puma t-shirts</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion13.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">timberland set</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">95<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion14.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">puma sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">60<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion15.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">nike sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion16.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">nike sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">70<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion17.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">nike sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">60<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion18.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">converse sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">40<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion19.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">adidas sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion20.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">converse sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion21.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">converse sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion22.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">converse sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion23.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">nike sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion24.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">timberland set</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion25.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">adidas sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion26.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">converse sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion27.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">adidas sweatshirt</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion28.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">adidas t-shirt</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion29.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">nike sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion30.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">adidas sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion31.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">adidas sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion32.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">nike sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion33.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">converse sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion34.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">nike sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion35.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">adidas sweatshirt</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion36.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">nike sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion37.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">nike sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion38.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">adidas sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion39.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">converse sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion40.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">adidas sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion41.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">adidas jacket</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion42.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">nike sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion43.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">adidas jacket</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion44.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">nike cap</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion45.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">nike sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion46.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">converse sneakers</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion47.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">adidas t-shirt</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-2 mx-auto my-3 store-item article" data-item="article">
+                    <div class="card single-item">
+                        <div class="img-container">
+                            <img src="timberland/fashion48.jpg" class="card-img-top store-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text text-capitalize mb-2">
+                                <span id="store-item-name text-left">converse set</span>
+                            </div>
+                            <div class="card-price text-left">
+                                <span class="store-item-value">80<strong>€</strong></span>
+                                <span class="store-item-icon float-right">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container justify-content-end pagination">
+            <div class="tableList" id="listingTable"></div>
+            <div class="pagination-block">
+                <span class="pageButton outline-none" id="button_prev">&laquo;</span>
+                <span id="page_number" class="outline-none"></span>
+                <span class="pageButton outline-none" id="button_next">&raquo;</span>
+            </div>
+          </div>
+    </section>
+
+    <!-- section other product -->
+    
+    <section id="sevices" class="services mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center my-5 p-3 services-info" >
+                    <img src="logo/shoes.png" class="" alt="">
+                    <h6 class="text-uppercase my-3 service-title">shoes</h6>
+                    <p class="mx-auto text-left service-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione quo, ipsam repudiandae similique asperiores ab!</p>
+                </div>
+                <div class="col-md-4 text-center my-5 p-3 services-info" >
+                    <img src="logo/sneakers.png" class="" alt="">
+                    <h6 class="text-uppercase my-3 service-title">sneakers</h6>
+                    <p class="mx-auto text-left service-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione quo, ipsam repudiandae similique asperiores ab!</p>
+                </div>
+                <div class="col-md-4 text-center my-5 p-3 services-info" >
+                    <img src="logo/dress.png" class="" alt="">
+                    <h6 class="text-uppercase my-3 service-title">dress</h6>
+                    <p class="mx-auto text-left service-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione quo, ipsam repudiandae similique asperiores ab!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section order -->
+
+    <section id="order" class="order py-5">
+         <div class="container">
+            <div class="row">
+                <div class="col-10 mx-auto colsm-6 text-center mb-4">
+                    <h1 class="text-capitalize">
+                        order
+                        <strong class="banner-title strong-txt">atlanta colection</strong>
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-11 mx-auto col-md-6 col-lg-4 my-4 text-capitalize text-center">
+                    <h3 class="py-3">atlanta falcons official nike cap</h3>
+                    <div class="text-muted">
+                        <p class="my-3">Lorem ipsum</p>
+                        <p class="my-3">Lorem ipsum</p>
+                        <p class="my-3">Lorem, ipsum dolor.</p>
+                        <p class="my-3">Lorem, ipsum dolor.</p>
+                        <button type="button" class="btn btn-black text-uppercase mb-3">bay now</button>
+                        <p class="text-lowercase mb-4">45€</p>
+                        <img src="atalanta/atalanta2.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-11 mx-auto col-md-6 col-lg-4 my-4 text-capitalize text-center">
+                    <h3 class="py-3">atlanta falcons helmet side view</h3>
+                    <div class="text-muted">
+                        <p class="my-3">Lorem ipsum</p>
+                        <p class="my-3">Lorem ipsum</p>
+                        <p class="my-3">Lorem, ipsum dolor.</p>
+                        <p class="my-3">Lorem, ipsum dolor.</p>
+                        <button type="button" class="btn btn-black text-uppercase mb-3">bay now</button>
+                        <p class="text-lowercase mb-4">45€</p>
+                        <img src="atalanta/atalanta1.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-11 mx-auto col-md-6 col-lg-4 my-4 text-capitalize text-center">
+                    <h3 class="py-3">atlanta falcons matt ryan nike outfit</h3>
+                    <div class="text-muted">
+                        <p class="my-3">Lorem ipsum</p>
+                        <p class="my-3">Lorem ipsum</p>
+                        <p class="my-3">Lorem, ipsum dolor.</p>
+                        <p class="my-3">Lorem, ipsum dolor.</p>
+                        <button type="button" class="btn btn-black text-uppercase mb-3">bay now</button>
+                        <p class="text-lowercase mb-4">45€</p>
+                        <img src="atalanta/atalanta3.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+         </div>
+    </section>
+
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 text-center footer-title py-5">
+                    <a href="#" class="footer-logo">
+                        <img src="logo/nav-logo.png" alt="">
+                    </a>
+                    <span><strong class="banner ml-4 text-uppercase strong-txt">online shop</strong></span>
+                    <span>
+                    <div class="footer-icons my-5">
+                        <span class="mr-5"><a href="#" class="footer-icon"><i class="fa fa-facebook"></i></a></span>
+                        <span class="mr-5"><a href="#" class="footer-icon"><i class="fa fa-twitter"></i></a></span>
+                        <span class="mr-5"><a href="#" class="footer-icon"><i class="fa fa-instagram"></i></a></span>
+                        <span class=""><a href="#" class="footer-icon"><i class="fa fa-youtube"></i></a></span>
+                    </div>
+                </div>       
+                <div class="col-sm-6 footer-contact text-center text-capitalize p-5">
+                    <h3 class="mb-3">contact</h3>
+                    <p class="d-flex flex-wrap">
+                        <span class="mr-4 footer-icon">
+                            <i class="fa fa-map-marker"></i>
+                        </span>
+                        <span>raska, republika srbija</span>
+                    </p>
+                    <p class="d-flex flex-wrap">
+                        <span class="mr-4 footer-icon">
+                            <i class="fa fa-phone"></i>
+                        </span>
+                        <span>+381 60 550 2985</span>
+                    </p>
+                    <p class="d-flex flex-wrap">
+                        <span class="mr-4 footer-icon">
+                            <i class="fa fa-envelope"></i>
+                        </span>
+                        <span class="text-lowercase">marko.raska81@gmail.com</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mx-auto text-center footer-copyright">
+            <div>
+                <span>© 2020 Marko Milenkovic</span>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
